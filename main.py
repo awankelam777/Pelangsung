@@ -3,9 +3,9 @@ from flask import Flask
 from threading import Thread
 
 # Ganti ini dengan token bot kamu
-API_TOKEN = 'PASTE_TOKEN_KAMU_DI_SINI'
+API_TOKEN = '7851637498:AAEcswBnyx55_rRM2YeKqZBhL7RhWvs7oTg'
 
-bot = telebot.TeleBot(API_TOKEN)
+bot = telebot.TeleBot(7851637498:AAEcswBnyx55_rRM2YeKqZBhL7RhWvs7oTg)
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
